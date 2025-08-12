@@ -56,3 +56,11 @@ h1 {
     opacity: .6;
     cursor: not-allowed;
 }
+
+section {
+  height: 100vh; 
+  background: #f6f7fb;
+  width: 100%;
+  padding-top: 100px;
+
+}
