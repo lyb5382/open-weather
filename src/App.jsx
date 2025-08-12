@@ -3,6 +3,7 @@ import WeatherCard from './components/WeatherCard'
 import { useState, useRef, useEffect } from 'react'
 import { fetchCoordinates } from './api/geo'
 import { fetchWeatherByCoords } from './api/weather'
+import { getColorByWeatherId } from './api/bgColor'
 
 function App() {
   const [city, setCity] = useState('seoul')
