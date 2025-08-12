@@ -1,5 +1,5 @@
 export const getColorByWeatherId = (weatherId) => {
-    if (weatherId === 800) return '#FCD34D'; // 맑음: 따뜻한 노랑(amber-300)
+    if (weatherId === 800) return '#fcd34d5d'; // 맑음: 따뜻한 노랑(amber-300)
 
     const group = Math.floor(weatherId / 100); // 2,3,5,6,7,8...
 
