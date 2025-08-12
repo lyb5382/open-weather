@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 1px solid #eee;
+}
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+.nav-list li a.active{
+    color: #f00;
+    font-weight: bold;
+}
